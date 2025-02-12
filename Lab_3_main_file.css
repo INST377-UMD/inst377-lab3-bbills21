@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.header-footer {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content input, .main-content select {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.main-content input:focus{
+    width: 300px;
+    transition: 0.5s;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.sidebar:hover {
+    background-color: lightgray;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: brown;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: greenyellow;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
